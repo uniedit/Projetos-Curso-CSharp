@@ -10,8 +10,7 @@ namespace Projetos_Curso_CSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Oi");
-
+            Console.WriteLine("Hi");
         }
     }
 }
