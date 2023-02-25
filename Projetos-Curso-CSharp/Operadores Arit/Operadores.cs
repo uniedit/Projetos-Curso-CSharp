@@ -24,6 +24,7 @@ namespace Classe.Template
                 * = Multiplicação
                 / = Divisão
                 % = Resto da divisão
+                (x % y == 0) x Multiplo de y
                 Resto da divisão será util quando quer descobrir se é par ou impar e multiplo de outro ^^
 
                 Operadores avançados
