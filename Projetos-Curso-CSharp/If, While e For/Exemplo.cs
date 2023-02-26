@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace Ex_E2G_2J_Felippe {
     internal class Program {
         static void Method() {
+
             double a, b, c, delta, x1, x2;
             string R;
 

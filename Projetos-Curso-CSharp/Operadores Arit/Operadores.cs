@@ -17,7 +17,11 @@ namespace Classe.Template
                 variavel (como "double a = (double) 8 / 3"), que já é de ponto 
                 flutuante como o (double e float) pode-se ultilizar um valor 
                 com casa decimal ("double a = 10.0 / 8.0")
-                
+
+                OBS: Procedência do && maior que || e ! maior que todos
+                && <- E, || <- OU
+                ! <- NÃO (Nega uma expressão, ou a parte que ela está)            }
+
                 Operadores aritmeticos padrão:
                 + = Adição
                 - = Subtração

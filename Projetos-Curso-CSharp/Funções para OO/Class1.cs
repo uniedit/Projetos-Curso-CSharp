@@ -15,10 +15,24 @@ namespace Projetos_Curso_CSharp.Conversão_Casting {
                 int n2 = int.Parse(Console.ReadLine());
                 int n3 = int.Parse(Console.ReadLine());
 
-                double R = 0;
+                double R = Maior(n1, n2, n3);
+
+                Console.WriteLine($"Maior = {R}");
             }
 
+            static int Maior(int a, int b, int c) {
 
+                int M;
+
+                if (a > b && a > c) {
+                    M = a;
+                } else if (b > c) {
+                    M = b;
+                } else {
+                    M = c;
+                }
+                return M;
+            }
         }
     }
 }

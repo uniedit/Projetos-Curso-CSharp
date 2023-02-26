@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Conversão Casting\Class1.cs" />
     <Compile Include="Funções para OO\Class1.cs" />
+    <Compile Include="If, While e For\For.cs" />
     <Compile Include="Operadores Arit\Operadores.cs" />
     <Compile Include="Operadores Arit\Comparativas.cs" />
     <Compile Include="Testes.cs" />
@@ -53,13 +54,13 @@
     <Compile Include="Template\Internal.cs" />
     <Compile Include="ToString\Class1.cs" />
     <Compile Include="ToString\Class2.cs" />
+    <Compile Include="Vetores e Dados com ReadLine\Exercício2.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Exercício.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Multiplos Vetores e ToString.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Split e Vetores.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Entrada de Dados em String.cs" />
-    <Compile Include="While e If\Class1.cs" />
-    <Compile Include="While e If\Exemplo.cs" />
-    <Compile Include="While e If\Class.cs" />
+    <Compile Include="If, While e For\Exemplo.cs" />
+    <Compile Include="If, While e For\Class1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
