@@ -45,9 +45,10 @@
   <ItemGroup>
     <Compile Include="Conversão Casting\Class1.cs" />
     <Compile Include="Funções para OO\Class1.cs" />
+    <Compile Include="Global\Class1.cs" />
     <Compile Include="If, While e For\For.cs" />
     <Compile Include="OO\Entities\Funcionario.cs" />
-    <Compile Include="OO\Exercício.cs" />
+    <Compile Include="OO\ExercícioFuncionario.cs" />
     <Compile Include="OO\ExercícioTriangulo.cs" />
     <Compile Include="Operadores Arit\Operadores.cs" />
     <Compile Include="Operadores Arit\Comparativas.cs" />
