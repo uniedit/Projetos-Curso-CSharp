@@ -12,36 +12,8 @@ namespace Projetos_Curso_CSharp {
     internal class Testes {
         static void Main(string[] args) {
 
-            Produto x = new Produto();
-
-            Console.WriteLine("Entre os dados do produto:");
-            Console.Write("Nome: ");
-            x.Nome = Console.ReadLine();
-            Console.Write("Preço: ");
-            x.Preco = double.Parse(Console.ReadLine(), C.I);
-            Console.Write("Quantidade em estoque: ");
-            x.Quantidade = int.Parse(Console.ReadLine(), C.I);
-            Console.WriteLine();
-
-            // Uso do ToString usado e formatado na class Produto
-            Console.WriteLine($"Dados do Produto {x} \n");
-
-            Console.Write("Digite o número de produtos a ser adicionado ao estoque: ");
-            // Para modificar algo já existente precisa primeiro declarar a variavel que vai ser usada
-            int AddProd = int.Parse(Console.ReadLine());
-            // Depois se usa a variavel criada na função
-            x.AdicionarProdutos(AddProd);
-
-            Console.WriteLine();
-            Console.WriteLine($"Dados atualizados: {x} \n");
-
-            Console.Write("Digite o número de produtos a ser removido do estoque: ");
-            int RemvProd = int.Parse(Console.ReadLine());
-            x.RemoverProdutos(RemvProd);
-
-            Console.WriteLine();
-            Console.WriteLine($"Dados atualizados: {x}");
-
+            double insano = 1.69;
+            Console.WriteLine($"Hi {insano.ToString("F", C.I)}\n");
 
         }
     }

@@ -12,10 +12,12 @@ namespace Projetos_Curso_CSharp.OO.Entities {
         public double Preco;
         public int Quantidade;
 
+        // Criar uma variavel que retorna valor
         public double ValorTotalEmEstoque() {
             return Preco * Quantidade;
         }
 
+        // Operação padrão para modificar valor existente (VOID)
         public void AdicionarProdutos(int quantidade) {
             Quantidade += quantidade;
         }
@@ -24,6 +26,8 @@ namespace Projetos_Curso_CSharp.OO.Entities {
             Quantidade -= quantidade;
         }
 
+        // Usar ToString para formatar textos
+        // override ToString
         public override string ToString() {
             return Nome
                 + ", $ "

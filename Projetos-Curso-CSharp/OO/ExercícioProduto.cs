@@ -33,14 +33,15 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
                 // Depois se usa a variavel criada na função
                 x.AdicionarProdutos(AddProd);
 
-                Console.WriteLine($"Dados atualizados: {x}");
+                Console.WriteLine();
+                Console.WriteLine($"Dados atualizados: {x} \n");
 
                 Console.Write("Digite o número de produtos a ser removido do estoque: ");
                 int RemvProd = int.Parse(Console.ReadLine());
                 x.RemoverProdutos(RemvProd);
 
+                Console.WriteLine();
                 Console.WriteLine($"Dados atualizados: {x}");
-
             }
         }
     }
