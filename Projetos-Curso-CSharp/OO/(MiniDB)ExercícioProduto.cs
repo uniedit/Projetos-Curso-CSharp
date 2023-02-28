@@ -37,11 +37,12 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
                 Console.WriteLine($"Dados atualizados: {x} \n");
 
                 Console.Write("Digite o número de produtos a ser removido do estoque: ");
-                int RemvProd = int.Parse(Console.ReadLine());
-                x.RemoverProdutos(RemvProd);
+                AddProd = int.Parse(Console.ReadLine());
+                x.RemoverProdutos(AddProd);
 
                 Console.WriteLine();
                 Console.WriteLine($"Dados atualizados: {x}");
+                Console.ReadLine();
             }
         }
     }
