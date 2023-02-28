@@ -5,6 +5,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using C = Projetos_Curso_CSharp.Global.Global;
 
 namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
     public class Classe4 {
@@ -19,17 +20,17 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
                 Console.Write("Nome: ");
                 x.Name = Console.ReadLine();
                 Console.Write("Salário: ");
-                x.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                x.Salario = double.Parse(Console.ReadLine(), C.I);
 
                 Console.WriteLine("Dados do segundo funcionário: ");
                 Console.Write("Nome: ");
                 y.Name = Console.ReadLine();
                 Console.Write("Salário: ");
-                y.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                y.Salario = double.Parse(Console.ReadLine(), C.I);
 
                 double SalárioMédio = (x.Salario + y.Salario) / 2.0;
 
-                Console.WriteLine($"Salário médio = {SalárioMédio.ToString("F2", CultureInfo.InvariantCulture)}");
+                Console.WriteLine($"Salário médio = {SalárioMédio.ToString("F2", C.I)}");
 
             }
         }

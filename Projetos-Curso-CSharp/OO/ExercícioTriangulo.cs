@@ -4,6 +4,8 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using C = Projetos_Curso_CSharp.Global.Global;
+
 
 namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
     public class Classe1 {
@@ -17,23 +19,20 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
                 y = new Triangulo();
 
                 Console.WriteLine("Entre com as medidas do Triangulo X:");
-                x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                x.A = double.Parse(Console.ReadLine(), C.I);
+                x.B = double.Parse(Console.ReadLine(), C.I);
+                x.C = double.Parse(Console.ReadLine(), C.I);
 
                 Console.WriteLine("Entre com as medidas do Triangulo Y:");
-                y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                y.A = double.Parse(Console.ReadLine(), C.I);
+                y.B = double.Parse(Console.ReadLine(), C.I);
+                y.C = double.Parse(Console.ReadLine(), C.I);
 
-                double p = (x.A + x.B + x.C) / 2.0;
-                double AreaX = Math.Sqrt(p * (p - x.A) * (p - x.B) * (p - x.C));
+                double AreaX = x.Area();
+                double AreaY = y.Area();
 
-                p = (y.A + y.B + y.C) / 2.0;
-                double AreaY = Math.Sqrt(p * (p - y.A) * (p - y.B) * (p - y.C));
-
-                Console.WriteLine($"Área de X = {AreaX.ToString("F4", CultureInfo.InvariantCulture)}");
-                Console.WriteLine($"Área de Y = {AreaY.ToString("F4", CultureInfo.InvariantCulture)}");
+                Console.WriteLine($"Área de X = {AreaX.ToString("F4", C.I)}");
+                Console.WriteLine($"Área de Y = {AreaY.ToString("F4", C.I)}");
 
                 string Maior;
 
