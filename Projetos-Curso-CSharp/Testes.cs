@@ -12,9 +12,26 @@ namespace Projetos_Curso_CSharp {
     internal class Testes {
         static void Main(string[] args) {
 
-            double insano = 1.69;
-            Console.WriteLine($"Hi {insano.ToString("F", C.I)}\n");
+            Funcionario x = new Funcionario();
 
+            Console.Write("Nome: ");
+            x.Name = Console.ReadLine();
+
+            Console.Write("Salário bruto: ");
+            x.SalarioBruto = double.Parse(Console.ReadLine(), C.I);
+
+            Console.Write("Imposto: ");
+            x.Imposto = double.Parse(Console.ReadLine(), C.I);
+            Console.WriteLine();
+
+            Console.Write($"Funcionário: {x}\n\n");
+
+            Console.Write("Digite a porcentagem para aumentar o salário: ");
+            double Aumentar2 = double.Parse(Console.ReadLine(), C.I);
+            x.AumentarSalarioPonto(Aumentar2);
+            Console.WriteLine();
+
+            Console.WriteLine($"Dados atualizados: {x}");
         }
     }
 }
