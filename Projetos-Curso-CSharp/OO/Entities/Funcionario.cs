@@ -17,7 +17,7 @@ namespace Projetos_Curso_CSharp.OO.Entities {
             return SalarioBruto - Imposto;
         }
 
-        public void AumentarSalarioPonto(double porcentagem) {
+        public void AumentarSalario(double porcentagem) {
             SalarioBruto += (porcentagem / 100.00) * SalarioBruto;
         }
 

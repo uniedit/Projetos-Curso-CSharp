@@ -12,26 +12,17 @@ namespace Projetos_Curso_CSharp {
     internal class Testes {
         static void Main(string[] args) {
 
-            Funcionario x = new Funcionario();
+            Console.Write("Qual é a cotação do dólar? ");
+            ConversorStatic.Cotação = double.Parse(Console.ReadLine(), C.I);
 
-            Console.Write("Nome: ");
-            x.Name = Console.ReadLine();
+            Console.Write("Quantos dólares você vai comprar? ");
+            double Comprar = double.Parse(Console.ReadLine(), C.I);
+            double seila = ConversorStatic.Conversor(Comprar);
 
-            Console.Write("Salário bruto: ");
-            x.SalarioBruto = double.Parse(Console.ReadLine(), C.I);
+            Console.WriteLine($"Valor a ser pago em reais = {seila.ToString("F2", C.I)}");
 
-            Console.Write("Imposto: ");
-            x.Imposto = double.Parse(Console.ReadLine(), C.I);
-            Console.WriteLine();
 
-            Console.Write($"Funcionário: {x}\n\n");
 
-            Console.Write("Digite a porcentagem para aumentar o salário: ");
-            double Aumentar2 = double.Parse(Console.ReadLine(), C.I);
-            x.AumentarSalarioPonto(Aumentar2);
-            Console.WriteLine();
-
-            Console.WriteLine($"Dados atualizados: {x}");
         }
     }
 }
