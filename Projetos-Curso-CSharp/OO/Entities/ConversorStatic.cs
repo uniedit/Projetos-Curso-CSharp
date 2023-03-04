@@ -12,9 +12,8 @@ namespace Projetos_Curso_CSharp.OO.Entities {
         public static double IOF = 0.06;
 
         public static double Conversor(double dolar) {
-            return ((Cotação * dolar) * IOF) + (Cotação * dolar);
+            double R = Cotação * dolar;
+            return R * IOF + R;
         }
-
-
     }
 }

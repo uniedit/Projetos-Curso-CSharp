@@ -12,6 +12,19 @@ namespace Projetos_Curso_CSharp.OO.Entities {
         public double Preco;
         public int Quantidade;
 
+        // Construtor padrão
+        public Produto() {
+        }
+
+        // Construtor de 3 argumentos
+        public Produto(string nome, double preco, int quantidade) {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = quantidade;
+        }
+
+
+
         // Criar uma variavel que retorna valor
         public double ValorTotalEmEstoque() {
             return Preco * Quantidade;

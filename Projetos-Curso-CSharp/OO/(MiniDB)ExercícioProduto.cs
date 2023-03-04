@@ -13,16 +13,29 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
         internal class Class1 {
             public void Method3() {
 
-                Produto x = new Produto();
 
                 Console.WriteLine("Entre os dados do produto:");
                 Console.Write("Nome: ");
-                x.Nome = Console.ReadLine();
+                string nome = Console.ReadLine();
                 Console.Write("Preço: ");
-                x.Preco = double.Parse(Console.ReadLine(), C.I);
+                double preco = double.Parse(Console.ReadLine(), C.I);
                 Console.Write("Quantidade em estoque: ");
-                x.Quantidade = int.Parse(Console.ReadLine(), C.I);
+                int quantidade = int.Parse(Console.ReadLine(), C.I);
                 Console.WriteLine();
+
+                // Construtor padrão recebendo nome, preco, quantidade
+                Produto x1 = new Produto(nome, preco, quantidade);
+
+                // Construtor padrão sem receber variaveis
+                Produto x = new Produto();
+
+                // Construtor com variaveis pré-determinadas
+                Produto x2 = new Produto() {
+                    Nome = "TV",
+                    Preco = 500.00,
+                    Quantidade = 20
+                };
+
 
                 // Uso do ToString usado e formatado na class Produto
                 Console.WriteLine($"Dados do Produto {x} \n");

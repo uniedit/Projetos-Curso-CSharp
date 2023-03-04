@@ -12,16 +12,8 @@ namespace Projetos_Curso_CSharp {
     internal class Testes {
         static void Main(string[] args) {
 
-            Console.Write("Qual é a cotação do dólar? ");
-            ConversorStatic.Cotação = double.Parse(Console.ReadLine(), C.I);
-
-            Console.Write("Quantos dólares você vai comprar? ");
-            double Comprar = double.Parse(Console.ReadLine(), C.I);
-            double seila = ConversorStatic.Conversor(Comprar);
-
-            Console.WriteLine($"Valor a ser pago em reais = {seila.ToString("F2", C.I)}");
-
-
+            double insano = 1.69;
+            Console.WriteLine($"Hi {insano.ToString("F", C.I)}\n");
 
         }
     }

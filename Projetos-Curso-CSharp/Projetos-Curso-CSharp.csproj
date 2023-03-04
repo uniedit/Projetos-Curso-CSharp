@@ -48,7 +48,7 @@
     <Compile Include="Global\Class1.cs" />
     <Compile Include="If, While e For\For.cs" />
     <Compile Include="OO\%28MiniDB%29ExercícioProduto.cs" />
-    <Compile Include="ConversorStatic.cs" />
+    <Compile Include="OO\Entities\ConversorStatic.cs" />
     <Compile Include="OO\CotaçãoDolar.cs" />
     <Compile Include="OO\ExercícoFuncionario2.cs" />
     <Compile Include="OO\Entities\Funcionario.cs" />

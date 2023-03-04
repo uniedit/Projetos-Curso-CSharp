@@ -20,8 +20,7 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
                 double Comprar = double.Parse(Console.ReadLine(), C.I);
                 double seila = ConversorStatic.Conversor(Comprar);
 
-                Console.WriteLine($"Valor a ser pago em reais = {seila}");
-
+                Console.WriteLine($"Valor a ser pago em reais = {seila.ToString("F2", C.I)}");
             }
         }
     }
