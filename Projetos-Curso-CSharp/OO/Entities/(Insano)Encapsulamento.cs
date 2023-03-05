@@ -38,7 +38,7 @@ namespace Projetos_Curso_CSharp.OO.Entities {
         // OBS: caso não queira que seja modificado, apenas use o Get 
 
 
-        // ============================================================================================= //
+        // ============================================================================================== //
 
 
         // Properties e Value ^^
