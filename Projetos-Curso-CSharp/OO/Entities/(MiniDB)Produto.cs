@@ -14,13 +14,13 @@ namespace Projetos_Curso_CSharp.OO.Entities {
 
         // Construtor padrão
         public Produto() {
+            Quantidade = 10;
         }
 
         // Construtor de 3 argumentos
-        public Produto(string nome, double preco, int quantidade) {
+        public Produto(string nome, double preco, int quantidade) : this() {
             Nome = nome;
             Preco = preco;
-            Quantidade = quantidade;
         }
 
 

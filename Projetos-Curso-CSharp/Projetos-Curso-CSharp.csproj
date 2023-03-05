@@ -50,6 +50,8 @@
     <Compile Include="OO\%28MiniDB%29ExercícioProduto.cs" />
     <Compile Include="OO\Entities\ConversorStatic.cs" />
     <Compile Include="OO\CotaçãoDolar.cs" />
+    <Compile Include="OO\Entities\Encapsulamento.cs" />
+    <Compile Include="OO\Entities\This.cs" />
     <Compile Include="OO\ExercícoFuncionario2.cs" />
     <Compile Include="OO\Entities\Funcionario.cs" />
     <Compile Include="OO\Entities\%28MiniDB%29Produto.cs" />
