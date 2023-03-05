@@ -23,8 +23,6 @@ namespace Projetos_Curso_CSharp.OO.Entities {
             Preco = preco;
         }
 
-
-
         // Criar uma variavel que retorna valor
         public double ValorTotalEmEstoque() {
             return Preco * Quantidade;
