@@ -13,20 +13,20 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
         internal class Class1 {
             public void Method5() {
 
-                // Construtor de 3 parametros, inserindo 3 variaveis
+                // Construtor de 3 variaveis inserindo 3 variaveis
                 Encapsulamento x = new Encapsulamento("TV", 500.00, 10);
 
                 // Modo de usar Set
                 // x.SetNome("TV 4K");
 
-                // Modo de usar Set Properties
+                // Modo de usar Set, Properties
                 x.Nome = "TV 4K";
 
-                // Modo de usar Get
+                // Modo de usar Get, Padrão
                 Console.WriteLine(x.GetNome());
                 Console.WriteLine(x.GetPreco());
 
-                // Modo de usar Get Properties
+                // Modo de usar Get, Properties
                 Console.WriteLine(x.Nome);
                 Console.WriteLine(x.Preco);
                 Console.WriteLine(x.ValorTotalEmEstoque);

@@ -12,23 +12,23 @@ namespace Projetos_Curso_CSharp.OO.Entities {
         public double Preco;
         public int Quantidade;
 
-        // Construtor padrão
+        // Construtor padrão  // Produto x = new Produto();
         public Produto() {
             Quantidade = 10;
         }
 
-        // Construtor de 3 argumentos
+        // Construtor de 3 argumentos  // Produto x = new Produto(nome, preco, quantidade);
         public Produto(string nome, double preco, int quantidade) : this() {
             Nome = nome;
             Preco = preco;
         }
 
-        // Criar uma variavel que retorna valor
+        // Criar um construtor que retorna valor
         public double ValorTotalEmEstoque() {
             return Preco * Quantidade;
         }
 
-        // Operação padrão para modificar valor existente (VOID)
+        // Construtor padrão para modificar valor existente (VOID)
         public void AdicionarProdutos(int quantidade) {
             Quantidade += quantidade;
         }

@@ -12,26 +12,25 @@ namespace Projetos_Curso_CSharp.OO.Entities {
         private double _preco;
         private int _quantidade;
 
-        // Construtor de 3 parametros recebendo 3 variaveis
+        // Construtor de 3 variaveis recebendo 3 variaveis  // Encapsulamento x = new Encapsulamento("TV", 500.00, 10);
         public Encapsulamento(string nome, double preco, int quantidade) {
             _nome = nome;
             _preco = preco;
             _quantidade = quantidade;
         }
 
-        // Contrutor Get retornando apenas o nome
-        // Vantagens: Possivel adicionar logica, tal como if
+        // Contrutor Get retornando apenas o nome  // x.GetNome()
         public string GetNome() {
             return _nome;
         }
 
-        // Void pois modifica _nome
+        // Void pois modifica _nome  // x.SetNome("TV 4K");
         // Construtor de modificação ^^
         public void SetNome(string nome) {
             _nome = nome;
         }
 
-        // Apenas usando Get ^^
+        // Apenas usando Get ^^  // x.GetPreco()
         public double GetPreco() {
             return _preco;
         }
