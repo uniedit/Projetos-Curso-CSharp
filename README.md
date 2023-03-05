@@ -1,3 +1,3 @@
-# Guia
+# Guia de como compilar e usarr
 
-- Insano
+- sei la
