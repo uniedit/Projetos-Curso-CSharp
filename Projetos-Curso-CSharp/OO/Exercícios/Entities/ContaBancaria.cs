@@ -12,27 +12,28 @@ namespace Projetos_Curso_CSharp.OO.Entities {
         public string NumeroConta { get; private set; }
         public string TitularConta { get; private set; }
         public double ValorDeposito { get; private set; }
-        public double Tax = 5.0;
-
-
-        public ContaBancaria() { 
-        }
 
         public ContaBancaria(string numero, string titular) {
             NumeroConta = numero;
             TitularConta = titular;
         }
 
+        public ContaBancaria(string numero, string titular, double valorDeposito) : this(numero, titular) {
+            ValorDeposito = valorDeposito;
+        }
+
+        /* Metodo 2 de resolver o acima ^^
         public void ValorInicial(double value) {
             ValorDeposito = value;
         }
+        */
 
         public void Deposito(double value) {
             ValorDeposito += value;
         }
 
         public void Saque(double value) {
-            ValorDeposito = ValorDeposito - value - Tax;
+            ValorDeposito -= value + 5.0;
         }
 
 
@@ -40,6 +41,5 @@ namespace Projetos_Curso_CSharp.OO.Entities {
             return $"Conta {NumeroConta}, Titular: {TitularConta}, Saldo: $ {ValorDeposito.ToString("F2", C.I)}";
         }
 
-
     }
-    }
+}
