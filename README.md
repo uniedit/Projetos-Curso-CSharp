@@ -1,3 +1,5 @@
-# Guia
+# Guia de como compilar e usar
 
-- Insano
+
+### Passo 1:
+- sei la
