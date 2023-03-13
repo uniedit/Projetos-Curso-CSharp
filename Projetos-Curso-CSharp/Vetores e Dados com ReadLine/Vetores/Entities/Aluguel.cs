@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine.Vetores.Entities {
-    class Produto {
+    class Aluguel {
 
         public string Name { get; set; }
-        public double Price { get; set; }
+        public string Email { get; set; }
+        public int Quarto { get; set; }
 
     }
 }

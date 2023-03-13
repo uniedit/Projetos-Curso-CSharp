@@ -12,6 +12,7 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
 
                 int n = int.Parse(Console.ReadLine());
                 double[] vect = new double[n]; // Modo de criar uma variavel recebendo vetores
+                // [n] vai ser a quantidade de caixinhas a ser criada
 
                 // Criar um loop definido por "n"e receber multiplos vetores, armazenando-o em vect
                 // OBS: o lugar na memoria do vetor pode ser acessado dentro de "[]"

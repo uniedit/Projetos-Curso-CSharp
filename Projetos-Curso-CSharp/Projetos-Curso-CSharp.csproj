@@ -79,12 +79,15 @@
     <Compile Include="Vetores e Dados com ReadLine\Entrada de Dados em String.cs" />
     <Compile Include="If, While e For\Exemplo.cs" />
     <Compile Include="If, While e For\Class1.cs" />
+    <Compile Include="Vetores e Dados com ReadLine\Vetores\Entities\Aluguel.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Vetores\Entities\Produto.cs" />
+    <Compile Include="Vetores e Dados com ReadLine\Vetores\Exercicío.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Vetores\Vetor.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Vetores\Vetor2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
