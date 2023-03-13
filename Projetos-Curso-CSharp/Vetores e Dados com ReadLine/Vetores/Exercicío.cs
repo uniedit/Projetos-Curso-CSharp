@@ -14,10 +14,12 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
 
                 Console.Write("Quantos quartos serão alugados? ");
                 int n = int.Parse(Console.ReadLine());
-                Aluguel[] vect = new Aluguel[n];
+                int OO = 10;
+                Aluguel[] vect = new Aluguel[OO];
 
                 for (int i = 1; i <= n; i++) {
 
+                    Console.WriteLine("");
                     Console.WriteLine($"Aluguel #{i}:");
 
                     Console.Write("Nome: ");
@@ -29,18 +31,17 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
                     Console.Write("Quarto: ");
                     int quarto = int.Parse(Console.ReadLine());
 
-                    vect[i] = new Aluguel { Name = name, Email = email, Quarto = quarto };
+                    vect[quarto] = new Aluguel { Name = name, Email = email, Quarto = quarto };
+
                 }
 
-                if (vect[n] != null) {
-
-                } else {
-                    for (int i = 0; i < n; i++) {
-                        Console.WriteLine($"Quartos ocupados: \n{vect[i].Quarto}: {vect[i].Name}, {vect[i].Email}");
+                Console.WriteLine("");
+                Console.WriteLine("Quartos ucupados:");
+                for (int i = 0; i < OO; i++) {
+                    if (vect[i] != null) {
+                        Console.WriteLine($"{vect[i].Quarto}: {vect[i].Name}, {vect[i].Email}");
                     }
                 }
-
-
 
             }
         }
