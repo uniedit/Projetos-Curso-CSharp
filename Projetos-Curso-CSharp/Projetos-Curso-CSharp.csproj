@@ -47,8 +47,8 @@
     <Compile Include="Funções para OO\Class1.cs" />
     <Compile Include="Global\Class1.cs" />
     <Compile Include="If, While e For\For.cs" />
-    <Compile Include="OO\%28MiniDB%29ExercícioProduto.cs" />
-    <Compile Include="OO\%28Insano%29Encapsulamento.cs" />
+    <Compile Include="OO\Exercícios\%28MiniDB%29ExercícioProduto.cs" />
+    <Compile Include="OO\Exercícios\%28Insano%29Encapsulamento.cs" />
     <Compile Include="OO\Exercícios\ContaBancaria.cs" />
     <Compile Include="OO\Exercícios\Entities\ContaBancaria.cs" />
     <Compile Include="OO\Exercícios\Entities\ConversorStatic.cs" />
@@ -61,9 +61,10 @@
     <Compile Include="OO\Entities\%28MiniDB%29Produto.cs" />
     <Compile Include="OO\Exercícios\Funcionario.cs" />
     <Compile Include="OO\Exercícios\Triangulo.cs" />
+    <Compile Include="OO\Structs\Foreach\Foreach.cs" />
     <Compile Include="Operadores Arit\Operadores.cs" />
     <Compile Include="Operadores Arit\Comparativas.cs" />
-    <Compile Include="Structs\Nullable.cs" />
+    <Compile Include="OO\Structs\Nullable.cs" />
     <Compile Include="Testes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Template\Classe.cs" />
@@ -80,8 +81,10 @@
     <Compile Include="If, While e For\Exemplo.cs" />
     <Compile Include="If, While e For\Class1.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Vetores\Entities\Aluguel.cs" />
+    <Compile Include="Vetores e Dados com ReadLine\Vetores\Entities\Params.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Vetores\Entities\Produto.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Vetores\Exercicío.cs" />
+    <Compile Include="Vetores e Dados com ReadLine\Vetores\Params.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Vetores\Vetor.cs" />
     <Compile Include="Vetores e Dados com ReadLine\Vetores\Vetor2.cs" />
   </ItemGroup>
