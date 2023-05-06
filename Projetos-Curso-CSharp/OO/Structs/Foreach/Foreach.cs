@@ -9,19 +9,20 @@ namespace Projetos_Curso_CSharp.OO.Structs.Foreach {
         internal class Class {
             public void Method() {
 
-                string[] Nome;  //Vetor Nome
-                int Qt = int.Parse(Console.ReadLine());
-                int i = 0;
-                Nome = new string[Qt];
+                string[] Nome;  // Vetor Nome
+                int Qt = int.Parse(Console.ReadLine());  // Quantidade de vezes a repetir
+                int i = 0;  // Auxiliar do for
+                Nome = new string[Qt];  // Criar no vetor nome [Quantidades de vezes]
 
                 for (i = 0; i < Qt; i++) {
-                    Nome[i] = Console.ReadLine();
-
+                    Nome[i] = Console.ReadLine();  // Repete Qt vezes e coloca no Nome[] na posição [i]
                 }
 
+                int aux = 0;
+
                 foreach (string x in Nome) {
-                    i++;
-                    Console.WriteLine($"Pos: {i}, Nomes lidos: {x}");
+                    Console.WriteLine($"Pos: {aux}, Nomes lidos: {x}");
+                    aux++;
                 }
 
             }
