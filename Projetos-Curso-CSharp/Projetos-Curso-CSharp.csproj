@@ -62,6 +62,8 @@
     <Compile Include="OO\Exercícios\Funcionario.cs" />
     <Compile Include="OO\Exercícios\Triangulo.cs" />
     <Compile Include="OO\Structs\Foreach\Foreach.cs" />
+    <Compile Include="OO\Structs\Ref e Out\Entities\Ref.cs" />
+    <Compile Include="OO\Structs\Ref e Out\Ref.cs" />
     <Compile Include="Operadores Arit\Operadores.cs" />
     <Compile Include="Operadores Arit\Comparativas.cs" />
     <Compile Include="OO\Structs\Nullable.cs" />
