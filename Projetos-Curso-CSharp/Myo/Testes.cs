@@ -1,4 +1,5 @@
-﻿using Projetos_Curso_CSharp.OO.Entities;
+﻿using Projetos_Curso_CSharp.Myo;
+using Projetos_Curso_CSharp.OO.Entities;
 using Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine.Vetores.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ using C = Projetos_Curso_CSharp.Global.Global;
 
 
 namespace Projetos_Curso_CSharp {
-    internal class Testes {
+    class Testes {
         static void Main(string[] args) {
 
             double insano = 1.69;
