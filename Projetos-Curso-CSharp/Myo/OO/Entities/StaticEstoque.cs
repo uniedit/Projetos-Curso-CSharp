@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Globalization;
 
 namespace Projetos_Curso_CSharp.Myo {
-    internal class Estoque {
+    internal class StaticEstoque {
 
         public static string Nome;
         public static double Preco;
