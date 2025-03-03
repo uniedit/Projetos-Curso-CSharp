@@ -58,13 +58,11 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados {
                     Console.Write("Você quer depositar ou sacar (d/s)? ");
                     resp = char.Parse(Console.ReadLine());
                     Console.WriteLine("");
-                }
-
-                if (respSN == 's' || respSN == 'S') {
                     i++;
                 } else if (respSN == 'n' || respSN == 'N') {
                     i = 0;
                 }
+
             } while (i >= 1);
 
             Console.WriteLine("");
