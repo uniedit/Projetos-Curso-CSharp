@@ -1,5 +1,8 @@
-﻿using Projetos_Curso_CSharp.Myo.OO.Vetores.Demo.Entities;
+﻿using Projetos_Curso_CSharp.Myo;
+using Projetos_Curso_CSharp.Myo.OO.Vetores.Demo.Entities;
 using System;
+using System.Collections.Generic;
+using System.Globalization;
 using C = Projetos_Curso_CSharp.Global.Global;
 
 
@@ -7,8 +10,8 @@ namespace Projetos_Curso_CSharp {
     class Testes {
         static void Main(string[] args) {
 
-            double insano = 1.69;
-            Console.WriteLine($"Hi tyler {insano.ToString("F", C.I)}\n");
+            //double insano = 1.69;
+            //Console.WriteLine($"Hi tyler {insano.ToString("F", C.I)}\n");
 
         }
     }

@@ -52,11 +52,15 @@
     <Compile Include="Myo\OO\Exercícios\Salario.cs" />
     <Compile Include="Myo\OO\Structs\Demo\Demo.cs" />
     <Compile Include="Myo\OO\Structs\Demo\Point.cs" />
+    <Compile Include="Myo\OO\Vetores\Demo\Employee.cs" />
+    <Compile Include="Myo\OO\Vetores\Demo\Entities\Employee.cs" />
     <Compile Include="Myo\OO\Vetores\Demo\Entities\Product.cs" />
     <Compile Include="Myo\OO\Vetores\Demo\Entities\Room.cs" />
+    <Compile Include="Myo\OO\Vetores\Demo\Foreach.cs" />
     <Compile Include="Myo\OO\Vetores\Demo\Quarto.cs" />
     <Compile Include="Myo\OO\Vetores\Demo\Producto.cs" />
     <Compile Include="Myo\OO\Vetores\Demo\Vetor.cs" />
+    <Compile Include="Myo\OO\Vetores\Demo\Lista.cs" />
     <Compile Include="Myo\ReadLine\Demo\ToString.cs" />
     <Compile Include="Myo\ReadLine\Demo\Split.cs" />
     <Compile Include="Myo\OO\Exercícios\Entities\Salario.cs" />
