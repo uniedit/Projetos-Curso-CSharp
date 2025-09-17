@@ -10,8 +10,8 @@ namespace Projetos_Curso_CSharp {
     class Testes {
         static void Main(string[] args) {
 
-            //double insano = 1.69;
-            //Console.WriteLine($"Hi tyler {insano.ToString("F", C.I)}\n");
+            double insano = 1.69;
+            Console.WriteLine($"Hi tyler {insano.ToString("F", C.I)}\n");
 
         }
     }
