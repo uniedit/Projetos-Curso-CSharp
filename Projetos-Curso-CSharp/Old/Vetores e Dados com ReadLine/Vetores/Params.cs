@@ -15,5 +15,5 @@ namespace Projetos_Curso_CSharp.Vetores_e_Dados_com_ReadLine {
 
             }
         }
-        }
     }
+}
