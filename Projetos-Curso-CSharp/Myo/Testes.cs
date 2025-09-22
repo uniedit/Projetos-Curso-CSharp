@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Globalization;
 using C = Projetos_Curso_CSharp.Global.Global;
 
-
 namespace Projetos_Curso_CSharp {
     class Testes {
         static void Main(string[] args) {

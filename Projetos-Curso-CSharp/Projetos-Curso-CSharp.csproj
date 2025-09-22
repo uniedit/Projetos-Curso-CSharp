@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="Myo\OO\Especial\CondiçãoTernária.cs" />
     <Compile Include="Myo\OO\Especial\DateTime.cs" />
+    <Compile Include="Myo\OO\Especial\DateTimeKind.cs" />
     <Compile Include="Myo\OO\Especial\FunçõesStrings.cs" />
+    <Compile Include="Myo\OO\Especial\ISO 8601.cs" />
     <Compile Include="Myo\OO\Especial\TimeSpan.cs" />
     <Compile Include="Myo\OO\Exercícios\Entities\Conta.cs" />
     <Compile Include="Myo\OO\Exercícios\Entities\EstoquePrivate.cs" />

@@ -5,7 +5,7 @@ using System.Text;
 using C = Projetos_Curso_CSharp.Global.Global;
 
 namespace Projetos_Curso_CSharp.Vetores_e_Dados {
-    internal class CondiçãoTernária {
+    internal class Condiçãoternária {
         public void Method() {
 
             // ( condição ) ? valor_se_verdadeiro : valor_se_falso

@@ -47,6 +47,53 @@ CultureInfo.InvariantCulture);
             Console.WriteLine(y1);
             Console.WriteLine(y2);
 
+
+
+            // Propriedades com DateTime 
+            DateTime d = new DateTime(2001, 8, 15, 13, 45, 58, 275);
+            Console.WriteLine(d);
+            Console.WriteLine("1) Date: " + d.Date);
+            Console.WriteLine("2) Day: " + d.Day);
+            Console.WriteLine("3) DayOfWeek: " + d.DayOfWeek);
+            Console.WriteLine("4) DayOfYear: " + d.DayOfYear);
+            Console.WriteLine("5) Hour: " + d.Hour);
+            Console.WriteLine("6) Kind: " + d.Kind);
+            Console.WriteLine("7) Millisecond: " + d.Millisecond);
+            Console.WriteLine("8) Minute: " + d.Minute);
+            Console.WriteLine("9) Month: " + d.Month);
+            Console.WriteLine("10) Second: " + d.Second);
+            Console.WriteLine("11) Ticks: " + d.Ticks);
+            Console.WriteLine("12) TimeOfDay: " + d.TimeOfDay);
+            Console.WriteLine("13) Year: " + d.Year);
+
+            // Formatação(DateTime-> string)
+            DateTime e = new DateTime(2001, 8, 15, 13, 45, 58);
+            string e1 = e.ToLongDateString();
+            string e2 = e.ToLongTimeString();
+            string e3 = e.ToShortDateString();
+            string e4 = e.ToShortTimeString();
+            string e5 = e.ToString();
+            string e6 = e.ToString("yyyy-MM-dd HH:mm:ss");
+            string e7 = d.ToString("yyyy-MM-dd HH:mm:ss.fff");
+            Console.WriteLine(e1);
+            Console.WriteLine(e2);
+            Console.WriteLine(e3);
+            Console.WriteLine(e4);
+            Console.WriteLine(e5);
+            Console.WriteLine(e6);
+            Console.WriteLine(e7);
+
+            DateTime x = new DateTime(2028);
+            DateTime y = x.AddDays(1);
+            DateTime h1 = x.AddHours(2);
+            DateTime h2 = x.AddMilliseconds(500);
+            DateTime h3 = x.AddMinutes(2);
+            DateTime h4 = x.AddMonths(1);
+            DateTime h5 = x.AddSeconds(25);
+            DateTime h6 = x.AddTicks(20000L);
+            DateTime h7 = x.AddYears(2);
+            TimeSpan t = x.Subtract(x);
+
         }
     }
 }
