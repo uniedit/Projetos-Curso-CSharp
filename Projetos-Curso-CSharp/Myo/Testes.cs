@@ -6,7 +6,7 @@ namespace Projetos_Curso_CSharp {
         static void Main(string[] args) {
 
             double insano = 1.69;
-            Console.WriteLine($"Hi tyler {insano.ToString("F", C.I)}\n");
+            Console.WriteLine($"Hi\nTyler!! {insano.ToString("F", C.I)}");
 
         }
     }

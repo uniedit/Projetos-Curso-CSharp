@@ -46,6 +46,11 @@
     <Compile Include="Myo\Enumeração\Entities\Enums\OrderStatus.cs" />
     <Compile Include="Myo\Enumeração\Entities\Order.cs" />
     <Compile Include="Myo\Enumeração\Enums.cs" />
+    <Compile Include="Myo\Enumeração\Exercícios\Entities\Department.cs" />
+    <Compile Include="Myo\Enumeração\Exercícios\Entities\Enums\WorkerLevel.cs" />
+    <Compile Include="Myo\Enumeração\Exercícios\Entities\HourContract.cs" />
+    <Compile Include="Myo\Enumeração\Exercícios\Entities\Worker.cs" />
+    <Compile Include="Myo\Enumeração\Exercícios\Program.cs" />
     <Compile Include="Myo\OO\Especial\CondiçãoTernária.cs" />
     <Compile Include="Myo\OO\Especial\DateTime.cs" />
     <Compile Include="Myo\OO\Especial\DateTimeKind.cs" />
