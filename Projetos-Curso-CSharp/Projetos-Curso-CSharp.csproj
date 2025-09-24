@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Myo\Enumeração\Entities\Enums\OrderStatus.cs" />
+    <Compile Include="Myo\Enumeração\Entities\Order.cs" />
+    <Compile Include="Myo\Enumeração\Enums.cs" />
     <Compile Include="Myo\OO\Especial\CondiçãoTernária.cs" />
     <Compile Include="Myo\OO\Especial\DateTime.cs" />
     <Compile Include="Myo\OO\Especial\DateTimeKind.cs" />

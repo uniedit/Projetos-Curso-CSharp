@@ -1,8 +1,4 @@
-﻿using Projetos_Curso_CSharp.Myo;
-using Projetos_Curso_CSharp.Myo.OO.Vetores.Demo.Entities;
-using System;
-using System.Collections.Generic;
-using System.Globalization;
+﻿using System;
 using C = Projetos_Curso_CSharp.Global.Global;
 
 namespace Projetos_Curso_CSharp {
