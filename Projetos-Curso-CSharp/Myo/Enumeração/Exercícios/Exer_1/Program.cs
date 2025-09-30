@@ -3,7 +3,7 @@ using Projetos_Curso_CSharp.Myo.Enumeração.Entities.Enums;
 using System;
 using C = Projetos_Curso_CSharp.Global.Global;
 
-internal class Program {
+internal class ProgramExer_1 {
     public void Method() {
 
         Console.Write("Enter department's name: ");
