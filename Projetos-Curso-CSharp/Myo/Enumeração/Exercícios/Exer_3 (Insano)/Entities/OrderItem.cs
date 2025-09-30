@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace Projetos_Curso_CSharp.Myo.Enumeração.Exercícios.Exer_3.Entities {
+﻿namespace Projetos_Curso_CSharp.Myo.Enumeração.Exercícios.Exer_3.Entities {
     class OrderItem {
 
         public int Quantity { get; set; }

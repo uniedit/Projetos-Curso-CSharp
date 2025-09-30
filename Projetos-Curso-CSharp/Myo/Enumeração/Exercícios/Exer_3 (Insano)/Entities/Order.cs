@@ -51,14 +51,17 @@ namespace Projetos_Curso_CSharp.Myo.Enumeração.Exercícios.Exer_3.Entities {
             sb.AppendLine("Order items:");
 
             foreach (OrderItem item in orderItem) {
-                sb.Append(product.Name);
+                sb.Append(item.product.Name);
                 sb.Append(", $");
-                sb.Append(product.Price);
+                sb.Append(item.product.Price.ToString("F2", C.I));
                 sb.Append(", Quantity: ");
                 sb.Append(item.Quantity);
                 sb.Append(", Subtotal: $");
                 sb.Append(item.SubTotal().ToString("F2", C.I));
+                sb.AppendLine();
             }
+            sb.Append("Total price: $");
+            sb.AppendLine(sum.ToString("F2", C.I));
             return sb.ToString();
         }
 
