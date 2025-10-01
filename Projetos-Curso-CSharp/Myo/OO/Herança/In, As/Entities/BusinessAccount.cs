@@ -10,6 +10,7 @@
         /* 
             * Usa-se " : base " para se referenciar um construtor de outra classe os metodos que 
             * devem ser herdados da superclasse para essa subclasse.
+            * Mesma coisa que reaproveitar os argumentos do construtor da superclasse usando a palavra "base"
         */
 
         public BusinessAccount(int number, string holder, double balance, double loanLimit)

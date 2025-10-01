@@ -73,8 +73,11 @@
     <Compile Include="Myo\OO\Exercícios\Estoque.cs" />
     <Compile Include="Myo\OO\Exercícios\StaticEstoque.cs" />
     <Compile Include="Myo\OO\Exercícios\Salario.cs" />
-    <Compile Include="Myo\OO\Herança\Account.cs" />
-    <Compile Include="Myo\OO\Herança\BusinessAccount.cs" />
+    <Compile Include="Myo\OO\Herança\In, As\Entities\Account.cs" />
+    <Compile Include="Myo\OO\Herança\In, As\Entities\BusinessAccount.cs" />
+    <Compile Include="Myo\OO\Herança\In, As\Entities\SavingsAccount.cs" />
+    <Compile Include="Myo\OO\Herança\In, As\ProgramOutros.cs" />
+    <Compile Include="Myo\OO\Herança\In, As\Program.cs" />
     <Compile Include="Myo\OO\Structs\Demo\Demo.cs" />
     <Compile Include="Myo\OO\Structs\Demo\Point.cs" />
     <Compile Include="Myo\OO\Vetores\Demo\Exercícios\Employee.cs" />

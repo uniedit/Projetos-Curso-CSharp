@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Projetos_Curso_CSharp.Myo.OO.Herança;
+using System;
 using C = Projetos_Curso_CSharp.Global.Global;
 
 namespace Projetos_Curso_CSharp {
