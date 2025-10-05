@@ -8,7 +8,6 @@ namespace Projetos_Curso_CSharp.Myo.OO.Herança.Exercícios.Exer_2 {
         public void Main(string[] args) {
 
             List<Product> list = new List<Product>();
-            Product prod = new Product();
 
             Console.Write("Enter the number of products: ");
             int count = int.Parse(Console.ReadLine());
@@ -40,9 +39,11 @@ namespace Projetos_Curso_CSharp.Myo.OO.Herança.Exercícios.Exer_2 {
 
             }
 
+            Console.WriteLine("");
+
             Console.WriteLine("PRICE TAGS:");
             foreach (Product product in list) {
-                Console.WriteLine(product);
+                Console.WriteLine(product.PriceTag());
             }
 
         }

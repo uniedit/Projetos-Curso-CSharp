@@ -1,11 +1,5 @@
-﻿using Projetos_Curso_CSharp.Myo;
-using Projetos_Curso_CSharp.Myo.OO.Entities;
+﻿using Projetos_Curso_CSharp.Myo.OO.Entities;
 using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using C = Projetos_Curso_CSharp.Global.Global;
 
 namespace Projetos_Curso_CSharp.Vetores_e_Dados {
