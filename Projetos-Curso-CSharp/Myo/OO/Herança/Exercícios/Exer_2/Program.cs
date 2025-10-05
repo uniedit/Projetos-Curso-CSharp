@@ -3,14 +3,12 @@ using System;
 using System.Collections.Generic;
 using C = Projetos_Curso_CSharp.Global.Global;
 
-namespace Projetos_Curso_CSharp {
-    class Testes {
-        static void Main(string[] args) {
-
-            //double insano = 1.69;
-            //Console.WriteLine($"Hi\nTyler!! {insano.ToString("F", C.I)}");
+namespace Projetos_Curso_CSharp.Myo.OO.Herança.Exercícios.Exer_2 {
+    class Program {
+        public void Main(string[] args) {
 
             List<Product> list = new List<Product>();
+            Product prod = new Product();
 
             Console.Write("Enter the number of products: ");
             int count = int.Parse(Console.ReadLine());
@@ -42,11 +40,9 @@ namespace Projetos_Curso_CSharp {
 
             }
 
-            Console.WriteLine("");
-
             Console.WriteLine("PRICE TAGS:");
             foreach (Product product in list) {
-                Console.WriteLine(product.PriceTag());
+                Console.WriteLine(product);
             }
 
         }

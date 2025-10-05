@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Myo\OO\Enumeração\Entities\Enums\OrderStatus.cs" />
-    <Compile Include="Myo\OO\Enumeração\Entities\Order.cs" />
-    <Compile Include="Myo\OO\Enumeração\Enums.cs" />
+    <Compile Include="Myo\OO\Enumeração\Demo\Entities\Enums\OrderStatus.cs" />
+    <Compile Include="Myo\OO\Enumeração\Demo\Entities\Order.cs" />
+    <Compile Include="Myo\OO\Enumeração\Demo\Enums.cs" />
     <Compile Include="Myo\OO\Enumeração\Exercícios\Exer_1\Entities\Department.cs" />
     <Compile Include="Myo\OO\Enumeração\Exercícios\Exer_1\Entities\Enums\WorkerLevel.cs" />
     <Compile Include="Myo\OO\Enumeração\Exercícios\Exer_1\Entities\HourContract.cs" />
@@ -66,18 +66,27 @@
     <Compile Include="Myo\OO\Especial\FunçõesStrings.cs" />
     <Compile Include="Myo\OO\Especial\ISO 8601.cs" />
     <Compile Include="Myo\OO\Especial\TimeSpan.cs" />
-    <Compile Include="Myo\OO\Exercícios\Entities\Conta.cs" />
-    <Compile Include="Myo\OO\Exercícios\Entities\EstoquePrivate.cs" />
-    <Compile Include="Myo\OO\Exercícios\Entities\StaticEstoque.cs" />
-    <Compile Include="Myo\OO\Exercícios\Conta.cs" />
-    <Compile Include="Myo\OO\Exercícios\Estoque.cs" />
-    <Compile Include="Myo\OO\Exercícios\StaticEstoque.cs" />
-    <Compile Include="Myo\OO\Exercícios\Salario.cs" />
-    <Compile Include="Myo\OO\Herança\In, As\Entities\Account.cs" />
-    <Compile Include="Myo\OO\Herança\In, As\Entities\BusinessAccount.cs" />
-    <Compile Include="Myo\OO\Herança\In, As\Entities\SavingsAccount.cs" />
-    <Compile Include="Myo\OO\Herança\In, As\ProgramOutros.cs" />
-    <Compile Include="Myo\OO\Herança\In, As\Program.cs" />
+    <Compile Include="Myo\OO\ExerEstoque\Entities\Conta.cs" />
+    <Compile Include="Myo\OO\ExerEstoque\Entities\EstoquePrivate.cs" />
+    <Compile Include="Myo\OO\ExerEstoque\Entities\StaticEstoque.cs" />
+    <Compile Include="Myo\OO\ExerEstoque\Conta.cs" />
+    <Compile Include="Myo\OO\ExerEstoque\Estoque.cs" />
+    <Compile Include="Myo\OO\ExerEstoque\StaticEstoque.cs" />
+    <Compile Include="Myo\OO\ExerEstoque\Salario.cs" />
+    <Compile Include="Myo\OO\Herança\Demo\Entities\Account.cs" />
+    <Compile Include="Myo\OO\Herança\Demo\Entities\BusinessAccount.cs" />
+    <Compile Include="Myo\OO\Herança\Demo\Entities\SavingsAccountSealed.cs" />
+    <Compile Include="Myo\OO\Herança\Demo\Entities\SavingsAccount.cs" />
+    <Compile Include="Myo\OO\Herança\Demo\Entities\SavinsAccountPlus.cs" />
+    <Compile Include="Myo\OO\Herança\Demo\ProgramOutros.cs" />
+    <Compile Include="Myo\OO\Herança\Demo\Program.cs" />
+    <Compile Include="Myo\OO\Herança\Exercícios\Exer_1\Entities\Employee.cs" />
+    <Compile Include="Myo\OO\Herança\Exercícios\Exer_1\Entities\OutsourcedEmployee.cs" />
+    <Compile Include="Myo\OO\Herança\Exercícios\Exer_1\Program.cs" />
+    <Compile Include="Myo\OO\Herança\Exercícios\Exer_2\Entities\ImportedProduct.cs" />
+    <Compile Include="Myo\OO\Herança\Exercícios\Exer_2\Entities\Product.cs" />
+    <Compile Include="Myo\OO\Herança\Exercícios\Exer_2\Entities\UsedProduct.cs" />
+    <Compile Include="Myo\OO\Herança\Exercícios\Exer_2\Program.cs" />
     <Compile Include="Myo\OO\Structs\Demo\Demo.cs" />
     <Compile Include="Myo\OO\Structs\Demo\Point.cs" />
     <Compile Include="Myo\OO\Vetores\Demo\Exercícios\Employee.cs" />
@@ -94,7 +103,7 @@
     <Compile Include="Myo\OO\Vetores\Demo\Lista.cs" />
     <Compile Include="Myo\ReadLine\Demo\ToString.cs" />
     <Compile Include="Myo\ReadLine\Demo\Split.cs" />
-    <Compile Include="Myo\OO\Exercícios\Entities\Salario.cs" />
+    <Compile Include="Myo\OO\ExerEstoque\Entities\Salario.cs" />
     <Compile Include="Old\Conversão Casting\Class1.cs" />
     <Compile Include="Old\Funções para OO\Class1.cs" />
     <Compile Include="Old\Global\Class1.cs" />
@@ -145,6 +154,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Myo\OO\Herança\Exercícios\Exer_2\Entities\Enum\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
