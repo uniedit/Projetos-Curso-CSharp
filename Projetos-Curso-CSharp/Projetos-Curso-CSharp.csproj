@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Myo\OO\Abstração\Classes Abstratas\Entities\Account.cs" />
+    <Compile Include="Myo\OO\Abstração\Classes Abstratas\Entities\BusinessAccount.cs" />
+    <Compile Include="Myo\OO\Abstração\Classes Abstratas\Program.cs" />
+    <Compile Include="Myo\OO\Abstração\Classes Abstratas\Entities\SavingsAccount.cs" />
+    <Compile Include="Myo\OO\Abstração\Métodos Abstratos\Entities\Circle.cs" />
+    <Compile Include="Myo\OO\Abstração\Métodos Abstratos\Entities\Enums\Color.cs" />
+    <Compile Include="Myo\OO\Abstração\Métodos Abstratos\Entities\Rectangle.cs" />
+    <Compile Include="Myo\OO\Abstração\Métodos Abstratos\Entities\Shape.cs" />
+    <Compile Include="Myo\OO\Abstração\Métodos Abstratos\Program.cs" />
     <Compile Include="Myo\OO\Enumeração\Demo\Entities\Enums\OrderStatus.cs" />
     <Compile Include="Myo\OO\Enumeração\Demo\Entities\Order.cs" />
     <Compile Include="Myo\OO\Enumeração\Demo\Enums.cs" />
