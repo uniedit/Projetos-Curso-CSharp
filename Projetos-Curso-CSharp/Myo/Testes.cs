@@ -1,5 +1,5 @@
-﻿using System;
-using C = Projetos_Curso_CSharp.Global.Global;
+﻿using C = Projetos_Curso_CSharp.Global.Global;
+using System;
 
 namespace Projetos_Curso_CSharp {
     class Testes {

@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Myo\Exceções\Demo\Entities\Exceptions\DomainException.cs" />
+    <Compile Include="Myo\Exceções\Demo\Entities\Reservation.cs" />
+    <Compile Include="Myo\Exceções\Demo\Program.cs" />
     <Compile Include="Myo\OO\Abstração\Classes Abstratas\Entities\Account.cs" />
     <Compile Include="Myo\OO\Abstração\Classes Abstratas\Entities\BusinessAccount.cs" />
     <Compile Include="Myo\OO\Abstração\Classes Abstratas\Program.cs" />
