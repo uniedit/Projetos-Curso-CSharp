@@ -122,6 +122,7 @@
     <Compile Include="Myo\OO\Vetores\Demo\Exercícios\Producto.cs" />
     <Compile Include="Myo\OO\Vetores\Demo\Vetor.cs" />
     <Compile Include="Myo\OO\Vetores\Demo\Lista.cs" />
+    <Compile Include="Myo\ReadLine\Demo\CodigoClandestinoJogoSorte.cs" />
     <Compile Include="Myo\ReadLine\Demo\ToString.cs" />
     <Compile Include="Myo\ReadLine\Demo\Split.cs" />
     <Compile Include="Myo\OO\ExerEstoque\Entities\Salario.cs" />
