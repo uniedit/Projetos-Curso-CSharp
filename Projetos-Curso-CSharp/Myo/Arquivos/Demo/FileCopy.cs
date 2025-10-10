@@ -2,8 +2,9 @@
 using System.IO;
 
 namespace Projetos_Curso_CSharp.Myo.Arquivos.Demo {
-    class Program {
+    class FileCopy {
         public void Main(string[] args) {
+
             string sourcePath = @"c:\temp\file1.txt";
             string targetPath = @"c:\temp\file2.txt";
 
