@@ -44,10 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Myo\Arquivos\Demo\Directory.cs" />
     <Compile Include="Myo\Arquivos\Demo\FileCopy.cs" />
+    <Compile Include="Myo\Arquivos\Demo\Path.cs" />
     <Compile Include="Myo\Arquivos\Demo\ReadAllLine.cs" />
+    <Compile Include="Myo\Arquivos\Demo\StreamWritter.cs" />
     <Compile Include="Myo\Arquivos\Demo\UsingFirstLine.cs" />
     <Compile Include="Myo\Arquivos\Demo\ReadFirstLine.cs" />
+    <Compile Include="Myo\Arquivos\Exercícios\Entities\Product.cs" />
+    <Compile Include="Myo\Arquivos\Exercícios\Program.cs" />
     <Compile Include="Myo\Exceções\Demo\Entities\Exceptions\DomainException.cs" />
     <Compile Include="Myo\Exceções\Demo\Entities\Reservation.cs" />
     <Compile Include="Myo\Exceções\Demo\Program.cs" />
