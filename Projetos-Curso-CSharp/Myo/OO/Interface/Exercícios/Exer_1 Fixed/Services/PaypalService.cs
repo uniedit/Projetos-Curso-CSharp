@@ -4,6 +4,7 @@
         private const double FeePercentage = 0.02;
         private const double MonthlyInterest = 0.01;
 
+        // Modo de "herdar" os metodos da interface IOnlinePaymentService
         public double Interests(double amount, int months) {
             return amount * MonthlyInterest * months;
         }
