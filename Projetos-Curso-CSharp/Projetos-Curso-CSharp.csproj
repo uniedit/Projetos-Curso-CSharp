@@ -102,6 +102,11 @@
     <Compile Include="Myo\OO\ExerEstoque\Estoque.cs" />
     <Compile Include="Myo\OO\ExerEstoque\StaticEstoque.cs" />
     <Compile Include="Myo\OO\ExerEstoque\Salario.cs" />
+    <Compile Include="Myo\OO\Generics\Demo\Com Restrição\Entities\Product.cs" />
+    <Compile Include="Myo\OO\Generics\Demo\Com Restrição\Program.cs" />
+    <Compile Include="Myo\OO\Generics\Demo\Com Restrição\Services\CalculationService.cs" />
+    <Compile Include="Myo\OO\Generics\Demo\Sem Restrição\PrintService.cs" />
+    <Compile Include="Myo\OO\Generics\Demo\Sem Restrição\Program.cs" />
     <Compile Include="Myo\OO\Herança\Demo\Entities\Account.cs" />
     <Compile Include="Myo\OO\Herança\Demo\Entities\BusinessAccount.cs" />
     <Compile Include="Myo\OO\Herança\Demo\Entities\SavingsAccountSealed.cs" />
