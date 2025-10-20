@@ -180,6 +180,9 @@
     <Compile Include="Myo\OO\Interface\Exercícios\Exer_1\Services\IPaymentService.cs" />
     <Compile Include="Myo\OO\Interface\Exercícios\Exer_1\Services\Paypal.cs" />
     <Compile Include="Myo\OO\Interface\Exercícios\Exer_1\Services\RentalService.cs" />
+    <Compile Include="Myo\OO\Métodos de Extensão\Demo\Extensions\DateTimeExtensions.cs" />
+    <Compile Include="Myo\OO\Métodos de Extensão\Demo\Extensions\StringExtensions.cs" />
+    <Compile Include="Myo\OO\Métodos de Extensão\Demo\Program.cs" />
     <Compile Include="Myo\OO\Structs\Demo\Demo.cs" />
     <Compile Include="Myo\OO\Structs\Demo\Point.cs" />
     <Compile Include="Myo\OO\Vetores\Demo\Exercícios\Employee.cs" />
