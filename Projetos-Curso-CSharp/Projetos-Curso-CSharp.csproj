@@ -72,6 +72,10 @@
     <Compile Include="Myo\OO\Abstração\Métodos Abstratos\Entities\Rectangle.cs" />
     <Compile Include="Myo\OO\Abstração\Métodos Abstratos\Entities\Shape.cs" />
     <Compile Include="Myo\OO\Abstração\Métodos Abstratos\Program.cs" />
+    <Compile Include="Myo\OO\Delegates\Demo\Program.cs" />
+    <Compile Include="Myo\OO\Delegates\Demo\Services\CalculationService.cs" />
+    <Compile Include="Myo\OO\Delegates\Predicate\Entities\Product.cs" />
+    <Compile Include="Myo\OO\Delegates\Predicate\Program.cs" />
     <Compile Include="Myo\OO\Enumeração\Demo\Entities\Enums\OrderStatus.cs" />
     <Compile Include="Myo\OO\Enumeração\Demo\Entities\Order.cs" />
     <Compile Include="Myo\OO\Enumeração\Demo\Enums.cs" />
