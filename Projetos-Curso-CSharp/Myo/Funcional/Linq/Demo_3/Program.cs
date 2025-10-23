@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System;
 
-
-namespace Projetos_Curso_CSharp.Myo.Funcional.Linq.Demo_2 {
+namespace Projetos_Curso_CSharp.Myo.Funcional.Linq.Demo_3 {
     class Program {
 
         static void Print<Generic>(string message, IEnumerable<Generic> collection) {
@@ -35,16 +34,23 @@ namespace Projetos_Curso_CSharp.Myo.Funcional.Linq.Demo_2 {
                 new Product() { Id = 11, Name = "Level", Price = 70.0, Category = c1 }
             };
 
-            var r1 = products.Where(p => p.Category.Tier == 1 && p.Price < 900.0);
-
+            //var r1 = products.Where(p => p.Category.Tier == 1 && p.Price < 900.0);
+            var r1 =
+                from p in products
+                where p.Category.Tier == 1
+                select p.Name;
             Print("Tier 1 and price < 900:", r1);
 
-            var r2 = products
-                .Where(p => p.Category.Name.Equals("Tools"))
-                .Select(p => p.Name);
-
+            //var r2 = products
+            //    .Where(p => p.Category.Name.Equals("Tools"))
+            //    .Select(p => p.Name);
+            var r2 =
+                from p in products
+                where (p.Category.Name.Equals("Tools"))
+                select p.Name;
             Print("Name of products from tools: ", r2);
 
+            /*
             var r3 = products
                 .Where(p => p.Name.StartsWith("C")) // p => p.Name[0] == 'C'
                 .Select(p => new {
@@ -54,27 +60,58 @@ namespace Projetos_Curso_CSharp.Myo.Funcional.Linq.Demo_2 {
                     p.Price,
                     CategoryName = p.Category.Name
                 }); // p => p.Name && p.Price && p.Category
-
+            */
+            var r3 =
+                from p in products
+                where p.Name.StartsWith("C")
+                select new {
+                    p.Name,
+                    p.Price,
+                    CategoryName = p.Category.Name
+                };
             Print("Products that starts with 'C' and Anonymous object ", r3);
 
+            /*
             var r4 = products
                 .Where(p => p.Category.Tier == 1)
                 .OrderByDescending(p => p.Price)
                 .ThenBy(p => p.Name);
-
+            */
+            var r4 =
+                from p in products
+                where p.Category.Tier == 1
+                orderby p.Name
+                orderby p.Price
+                descending
+                select p;
             Print("Tier 1 orded by price then by name", r4);
 
-            var r5 = r4.Skip(2).Take(4);
-
+            //var r5 = r4.Skip(2).Take(4);
+            var r5 =
+                (from p in products
+                 select p).Skip(2).Take(4);
             Print("Skip 2 then take 4 from r4", r5);
 
-            var r6 = products.First();
+            //var r6 = products.First();
+            var r6 =
+                (from p in products
+                 select p).First();
             Console.WriteLine($"First in Products: {r6}");
 
+            /*
             var r7 = products
                 .Where(p => p.Price > 3000)
                 .FirstOrDefault();
+            */
+            var r7 =
+                (from p in products
+                 where p.Price > 3000
+                 select p).FirstOrDefault();
             Console.WriteLine($"First or Default in Products: {r7}");
+
+            //
+            // Skip to line -> 161
+            //
 
             Console.WriteLine();
 
@@ -121,7 +158,10 @@ namespace Projetos_Curso_CSharp.Myo.Funcional.Linq.Demo_2 {
 
             Console.WriteLine();
 
-            var r16 = products.GroupBy(p => p.Category);
+            //var r16 = products.GroupBy(p => p.Category);
+            var r16 =
+                from p in products
+                group p by p.Category;
 
             foreach (IGrouping<Category, Product> group in r16) {
                 Console.WriteLine("Category: " + group.Key.Name);
