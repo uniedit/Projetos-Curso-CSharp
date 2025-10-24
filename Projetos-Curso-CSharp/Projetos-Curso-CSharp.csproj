@@ -64,6 +64,10 @@
     <Compile Include="Myo\Funcional\Linq\Demo_2\Entities\Product.cs" />
     <Compile Include="Myo\Funcional\Linq\Demo_2\Program.cs" />
     <Compile Include="Myo\Funcional\Linq\Demo_3\Program.cs" />
+    <Compile Include="Myo\Funcional\Linq\Demo_4\Entities\Product.cs" />
+    <Compile Include="Myo\Funcional\Linq\Demo_4\Program.cs" />
+    <Compile Include="Myo\Funcional\Linq\Exercícios\Exer_1\Entities\Employee.cs" />
+    <Compile Include="Myo\Funcional\Linq\Exercícios\Exer_1\Program.cs" />
     <Compile Include="Myo\OO\Abstração\Classes Abstratas\Entities\Account.cs" />
     <Compile Include="Myo\OO\Abstração\Classes Abstratas\Entities\BusinessAccount.cs" />
     <Compile Include="Myo\OO\Abstração\Classes Abstratas\Program.cs" />
